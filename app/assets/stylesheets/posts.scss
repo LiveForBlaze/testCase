@@ -2,6 +2,10 @@
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 20px;
 
+  .voted {
+    background-color: wheat;
+  }
+
   h2 {
     margin: 0 0 20px 0;
     padding: 0;
@@ -16,7 +20,10 @@
   }
 
   .tagline {
-    margin-bottom: 10px;
+    color: #999999;
+    h2 {
+      font-weight: 400;
+    }
   }
 
   footer {
@@ -44,6 +51,239 @@
 
     &:hover {
       background: #e8e8e8;
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    margin-bottom: 20px;
+    .buttonsContainer {
+      display: flex;
+      gap: 15px;
+    }
+  }
+
+  .title {
+    margin: 10px 0 10px;
+  }
+
+  .linkButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8e8e8;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 15px;
+    background: white;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      background: #e8e8e8;
+    }
+  }
+
+  .upvote {
+    background-color: #fa4500;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    svg {
+      margin-right: 8px;
+    }
+    &:hover {
+      background-color: #ff895c;
+    }
+  }
+}
+
+.list {
+  display: flex;
+  gap: 5px;
+  margin-top: 25px;
+  .avatarContainer {
+    width: 50px;
+    height: 60px;
+    position: relative;
+  }
+  .avatars {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .avatarIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    margin: 0;
+  }
+}
+
+.about {
+  margin-top: 40px;
+  .list {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    .element {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+      height: 70px;
+      gap: 10px;
+      font-weight: 600;
+      color: #60646d;
+      > div > div {
+        font-size: 20px;
+        margin-top: 10px;
+        color: black;
+      }
+    }
+    .element:nth-last-child(1) {
+      border: none;
+      align-items: flex-end;
+    }
+    .element:nth-child(1) {
+      align-items: flex-start;
+    }
+  }
+}
+
+.comments {
+  margin-top: 25px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .newComment {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    align-items: center;
+    gap: 5px;
+    .avatar {
+      border-radius: 50%;
+    }
+    input {
+      flex: 1;
+      border: none;
+      outline: none;
+      background-color: transparent;
+    }
+    button {
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 10px 15px;
+      background: white;
+      border: 1px solid #e8e8e8;
+      margin-right: 10px;
+      outline: none;
+      cursor: pointer;
+
+      &:hover {
+        background: #e8e8e8;
+      }
+    }
+  }
+
+  .commentItem {
+    display: flex;
+    gap: 5px;
+    min-height: 70px;
+    .avatar {
+      display: inline-block;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      box-sizing: border-box;
+    }
+    .main {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding-top: 15px;
+      .header {
+        display: flex;
+        width: 100%;
+        margin-bottom: 0;
+        .name {
+          display: inline-block;
+          margin-right: 5px;
+          font-weight: 600;
+        }
+        .userName {
+          color: #999999;
+        }
+      }
+      .text {
+        flex: 1;
+      }
+    }
+    .actions {
+      display: flex;
+      gap: 20px;
+      font-size: 12px;
+    }
+  }
+}
+
+.latestLaunches {
+  margin-top: 30px;
+  .header {
+    width: 100%;
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    .title {
+      background-color: white;
+      padding: 0 5px;
+      margin-top: -10px;
+    }
+  }
+  .trends {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    > div {
+      flex: 1;
+      border-right: 1px solid #e8e8e8;
+      h3 {
+        margin: 5px 0;
+      }
+      .tagline {
+        color: #60646d;
+        margin-bottom: 5px;
+      }
+      .actions {
+        color: #60646d;
+        font-size: 12px;
+        display: flex;
+        align-items: flex-end;
+        .arrowUp {
+          margin-right: 5px;
+        }
+        span {
+          display: inline-block;
+          margin: 0 10px;
+        }
+      }
+    }
+    > div:nth-last-child(1) {
+      border: none;
     }
   }
 }

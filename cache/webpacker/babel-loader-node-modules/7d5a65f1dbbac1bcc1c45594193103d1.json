@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './Comments';","map":{"version":3,"sources":["/Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/app/javascript/packs/posts-show/components/Comments/index.js"],"names":[],"mappings":"AAAA,cAAc,YAAd","sourcesContent":["export * from './Comments';"]},"metadata":{},"sourceType":"module"}

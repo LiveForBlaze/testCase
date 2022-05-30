@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './posts-index';","map":{"version":3,"sources":["/Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/app/javascript/packs/posts-index/index.js"],"names":[],"mappings":"AAAA,cAAc,eAAd","sourcesContent":["export * from './posts-index';"]},"metadata":{},"sourceType":"module"}

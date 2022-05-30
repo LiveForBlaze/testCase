@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Comments';","map":{"version":3,"sources":["/Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/app/javascript/packs/posts-show/components/Comments/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,YAAxB","sourcesContent":["export { default } from './Comments';"]},"metadata":{},"sourceType":"module"}

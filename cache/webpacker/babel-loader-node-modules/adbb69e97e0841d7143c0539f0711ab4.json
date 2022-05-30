@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './Header';","map":{"version":3,"sources":["/Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/app/javascript/packs/posts-show/components/Header/index.js"],"names":[],"mappings":"AAAA,cAAc,UAAd","sourcesContent":["export * from './Header';"]},"metadata":{},"sourceType":"module"}

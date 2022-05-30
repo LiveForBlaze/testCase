@@ -1,0 +1,16 @@
+current directory: /Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220526-17372-1bxyoch.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.4.Internal.sdk/usr/local/lib'
+
+current directory: /Users/Rustam_Mukhamedov/Downloads/kittynews_frontend/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20220526-17372-xq7xgq/skiptrace/internal
